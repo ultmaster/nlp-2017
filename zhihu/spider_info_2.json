@@ -1,0 +1,589 @@
+{
+  "loading": {
+    "global": {
+      "count": 0
+    },
+    "local": {
+      "token/": false,
+      "people/get/": false,
+      "people/getAnswers/ma-chao-61": false
+    }
+  },
+  "entities": {
+    "users": {
+      "ma-chao-61": {
+        "isFollowed": false,
+        "followingCount": 39,
+        "voteFromCount": 0,
+        "userType": "people",
+        "showSinaWeibo": true,
+        "pinsCount": 0,
+        "isFollowing": false,
+        "markedAnswersText": "编辑推荐",
+        "type": "people",
+        "accountStatus": [],
+        "logsCount": 13,
+        "id": "52162a2947f98389898310d50cfb4f22",
+        "favoriteCount": 1,
+        "voteupCount": 2736,
+        "commercialQuestionCount": 0,
+        "isBlocking": false,
+        "followingColumnsCount": 2,
+        "isForceRenamed": false,
+        "thankToCount": 0,
+        "headline": "PhD student in Computer Science",
+        "participatedLiveCount": 2,
+        "isBindSina": true,
+        "isAdvertiser": false,
+        "followingFavlistsCount": 2,
+        "favoritedCount": 2955,
+        "allowMessage": false,
+        "isOrg": false,
+        "isBlocked": false,
+        "followerCount": 2492,
+        "mutualFolloweesCount": 0,
+        "employments": [],
+        "badge": [],
+        "avatarUrlTemplate": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_{size}.jpg",
+        "followingTopicCount": 19,
+        "description": "",
+        "business": {
+          "name": "互联网",
+          "url": "",
+          "excerpt": "互联网（英语：internet），是网络 与网络之间所串连成的庞大网络，这些网络以一组标准的网络TCP/IP协议族 相连，链接全世界几十亿个设备，形成逻辑上的单一巨大国际网络。这是一个网络的网络，它是由从地方到全球范围内几百万个私人的，学术界的，企业的和政府的网络所构成，通过电子，无线和光纤网络技术等等一系列广泛的技术联系在一起。这种将计算机网络互相联接在一起的方法可称作“网络互联”，在这基础上发展出覆盖全世界…",
+          "introduction": "互联网（英语：internet），是网络 与网络之间所串连成的庞大网络，这些网络以一组标准的网络TCP/IP协议族 相连，链接全世界几十亿个设备，形成逻辑上的单一巨大国际网络。这是一个网络的网络，它是由从地方到全球范围内几百万个私人的，学术界的，企业的和政府的网络所构成，通过电子，无线和光纤网络技术等等一系列广泛的技术联系在一起。这种将计算机网络互相联接在一起的方法可称作“网络互联”，在这基础上发展出覆盖全世界的全球性互联网络称互联网，即是互相连接一起的网络。",
+          "avatarUrl": "https://pic4.zhimg.com/f07808da5625fef3607f8b75b770349f_is.jpg",
+          "type": "topic",
+          "id": "19550517"
+        },
+        "sinaWeiboUrl": "http://weibo.com/u/1633615122",
+        "isActive": 1,
+        "coverUrl": "",
+        "locations": [],
+        "markedAnswersCount": 1,
+        "answerCount": 55,
+        "thankFromCount": 0,
+        "voteToCount": 0,
+        "educations": [],
+        "urlToken": "ma-chao-61",
+        "questionCount": 4,
+        "articlesCount": 0,
+        "name": "马超",
+        "url": "",
+        "gender": 1,
+        "sinaWeiboName": "马超Terminal",
+        "messageThreadToken": "2224094100",
+        "avatarUrl": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_is.jpg",
+        "followingQuestionCount": 85,
+        "thankedCount": 618,
+        "hostedLiveCount": 0
+      }
+    },
+    "questions": {},
+    "answers": {
+      "127637712": {
+        "suggestEdit": {
+          "status": false,
+          "title": "",
+          "url": "",
+          "tip": "",
+          "reason": "",
+          "unnormalDetails": null
+        },
+        "isCollapsed": false,
+        "author": {
+          "avatarUrlTemplate": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_{size}.jpg",
+          "badge": [],
+          "name": "马超",
+          "isAdvertiser": false,
+          "url": "",
+          "type": "people",
+          "userType": "people",
+          "headline": "PhD student in Computer Science",
+          "avatarUrl": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_is.jpg",
+          "isOrg": false,
+          "urlToken": "ma-chao-61",
+          "id": "52162a2947f98389898310d50cfb4f22"
+        },
+        "url": "",
+        "excerpt": "一欢迎转载，请标明作者和出处。 作者：@马超Terminal 这是一个非常好，也非常值得思考的问题。换一个方式来问这个问题：为什么基于 tree-ensemble 的机器学习方法，在实际的 kaggle 比赛中效果非常好？ 通常，解释一个机器学习模型的表现是一件很复杂事情，而这篇文章尽可能用最直观的方式来解释这一问题。 我主要从三个方面来回答楼主这个问题。 1. 理论模型 （站在 vc-dimension 的角度） 2. 实际数据 3. 系统的实现 （主要基…",
+        "collapsedCounts": 0,
+        "markInfos": [],
+        "question": {
+          "title": "为什么在实际的 kaggle 比赛中 gbdt 和 random forest 效果非常好？",
+          "url": "",
+          "created": 1477009851,
+          "updatedTime": 1477009851,
+          "questionType": "normal",
+          "type": "question",
+          "id": 51818176
+        },
+        "relationship": {
+          "upvotedFollowees": [],
+          "isAuthor": false,
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false
+        },
+        "updatedTime": 1482890004,
+        "content": "<b>一欢迎转载，请标明作者和出处。</b><br><br><br><b>作者：@马超Terminal</b><br><br><br>这是一个非常好，也非常值得思考的问题。换一个方式来问这个问题：为什么基于 tree-ensemble 的机器学习方法，在实际的 kaggle 比赛中效果非常好？<br><br>通常，解释一个机器学习模型的表现是一件很复杂事情，而这篇文章尽可能用最直观的方式来解释这一问题。<br><br>我主要从三个方面来回答楼主这个问题。<br><br>1. 理论模型 （站在 vc-dimension 的角度）<br>2. 实际数据<br>3. 系统的实现 （主要基于 xgboost）<br><br>通常决定一个机器学习模型能不能取得好的效果，以上三个方面的因素缺一不可。<br><br><b>（1）站在理论模型的角度</b><br><br><br>统计机器学习里经典的 <i>vc-dimension</i> 理论告诉我们：一个机器学习模型想要取得好的效果，这个模型需要满足以下两个条件：<br><br>1. 模型在我们的训练数据上的表现要不错，也就是 trainning error 要足够小。<br>2. 模型的 vc-dimension 要低。换句话说，就是模型的自由度不能太大，以防overfit.<br><br>当然，这是我用大白话描述出来的，真正的 vc-dimension 理论需要经过复杂的数学推导，推出 vc-bound. <br><br>vc-dimension 理论其实是从另一个角度刻画了一个我们所熟知的概念，那就是 <i>bias variance trade-off.</i><br><br><br>好，现在开始让我们想象一个机器学习任务。对于这个任务，一定会有一个 “上帝函数” 可以完美的拟合所有数据（包括训练数据，以及未知的测试数据）。很可惜，这个函数我们肯定是不知道的 （不然就不需要机器学习了）。我们只可能选择一个 “假想函数” 来 <b>逼近 </b>这个 “上帝函数”，我们通常把这个 “假想函数” 叫做 <i>hypothesis.</i><br><br><br>在这些 hypothesis 里，我们可以选择 svm, 也可以选择 logistic regression. 可以选择单棵决策树，也可以选择 tree-ensemble (gbdt, random forest).  现在的问题就是，为什么 tree-ensemble 在实际中的效果很好呢？<br><br>区别就在于 “<b><i>模型的可控性</i></b>”。<br><br>先说结论，tree-ensemble 这样的模型的可控性是好的，而像 LR  这样的模型的可控性是不够好的（或者说，可控性是没有 tree-ensemble 好的）。为什么会这样？别急，听我慢慢道来。<br><br>我们之前说，当我们选择一个 hypothsis 后，就需要在训练数据上进行训练，从而逼近我们的 “上帝函数”。我们都知道，对于 LR 这样的模型。如果 underfit，我们可以通过加 feature，或者通过高次的特征转换来使得我们的模型在训练数据上取得足够高的正确率。而对于 tree-enseble 来说，我们解决这一问题的方法是通过训练更多的 “弱弱” 的 tree.  所以，这两类模型都可以把 training error 做的足够低，也就是说模型的表达能力都是足够的。但是这样就完事了吗？没有，我们还需要让我们的模型的 vc-dimension 低一些。<b>而这里，重点来了。</b>在 tree-ensemble 模型中，通过加 tree 的方式，对于模型的 vc-dimension 的改变是比较小的。而在 LR 中，初始的维数设定，或者说特征的高次转换对于 vc-dimension 的影响都是更大的。换句话说，tree-ensemble 总是用一些 “弱弱” 的树联合起来去逼近 “上帝函数”，一次一小步，总能拟合的比较好。而对于 LR 这样的模型，我们很难去猜到这个“上帝函数”到底长什么样子（到底是2次函数还是3次函数？上帝函数如果是介于2次和3次之间怎么办呢？）。所以，一不小心我们设定的多项式维数高了，模型就 <b>“刹不住车了”</b>。俗话说的好，步子大了，总会扯着蛋。这也就是我们之前说的，tree-ensemble 模型的可控性更好，也即更不容易 overfit.<br><br><b>（2）站在数据的角度</b><br><br><br>除了理论模型之外, 实际的数据也对我们的算法最终能取得好的效果息息相关。kaggle 比赛选择的都是真实世界中的问题。所以数据多多少少都是有噪音的。而基于树的算法通常抗噪能力更强。比如在树模型中，我们很容易对缺失值进行处理。除此之外，基于树的模型对于 categorical feature 也更加友好。<br><br>除了数据噪音之外，feature 的多样性也是 tree-ensemble 模型能够取得更好效果的原因之一。通常在一个kaggle任务中，我们可能有年龄特征，收入特征，性别特征等等从不同 channel 获得的特征。而特征的多样性也正是为什么工业界很少去使用 svm 的一个重要原因之一，因为 svm 本质上是属于一个几何模型，这个模型需要去定义 instance 之间的 kernel 或者 similarity （对于linear svm 来说，这个similarity 就是内积）。这其实和我们在之前说过的问题是相似的，我们无法预先设定一个很好的similarity。这样的数学模型使得 svm 更适合去处理 “同性质”的特征，例如图像特征提取中的 lbp 。而从不同 channel 中来的 feature 则更适合 tree-based model, 这些模型对数据的 distributation 通常并不敏感。<br><br><b>（3）站在系统实现的角度</b><br><br>除了有合适的模型和数据，一个良好的机器学习系统实现往往也是算法最终能否取得好的效果的关键。一个好的机器学习系统实现应该具备以下特征：<br><br>1. 正确高效的实现某种模型。我真的见过有些机器学习的库实现某种算法是错误的。而高效的实现意味着可以快速验证不同的模型和参数。<br>2. 系统具有灵活、深度的定制功能。<br>3. 系统简单易用。<br>4. 系统具有可扩展性, 可以从容处理更大的数据。<br><br>到目前为止，xgboost 是我发现的唯一一个能够很好的满足上述所有要求的 machine learning package. 在此感谢青年才俊 陈天奇。<br><br>在效率方面，xgboost 高效的 c++ 实现能够通常能够比其它机器学习库更快的完成训练任务。<br>在灵活性方面，xgboost 可以深度定制每一个子分类器，并且可以灵活的选择 loss function（logistic，linear，softmax 等等）。除此之外，xgboost还提供了一系列在机器学习比赛中十分有用的功能，例如 early-stop， cv 等等<br>在易用性方面，xgboost 提供了各种语言的封装，使得不同语言的用户都可以使用这个优秀的系统。<br>最后，在可扩展性方面，xgboost 提供了分布式训练（底层采用 rabit 接口），并且其分布式版本可以跑在各种平台之上，例如 mpi, yarn, spark 等等。<br><br>有了这么多优秀的特性，自然这个系统会吸引更多的人去使用它来参加 kaggle 比赛。<br><br>综上所述，理论模型，实际的数据，良好的系统实现，都是使得 tree-ensemble 在实际的 kaggle 比赛中“屡战屡胜”的原因。",
+        "reviewingCommentsCount": 0,
+        "commentCount": 19,
+        "voteupCount": 460,
+        "reshipmentSettings": "allowed",
+        "commentPermission": "all",
+        "createdTime": 1477020018,
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "id": 127637712,
+        "isNormal": true
+      },
+      "138761725": {
+        "suggestEdit": {
+          "status": false,
+          "title": "",
+          "url": "",
+          "tip": "",
+          "reason": "",
+          "unnormalDetails": null
+        },
+        "isCollapsed": false,
+        "author": {
+          "avatarUrlTemplate": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_{size}.jpg",
+          "badge": [],
+          "name": "马超",
+          "isAdvertiser": false,
+          "url": "",
+          "type": "people",
+          "userType": "people",
+          "headline": "PhD student in Computer Science",
+          "avatarUrl": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_is.jpg",
+          "isOrg": false,
+          "urlToken": "ma-chao-61",
+          "id": "52162a2947f98389898310d50cfb4f22"
+        },
+        "url": "",
+        "excerpt": "master已经承认了，他是alphaGo .......................................................... 感觉这个“master”应该是AlphaGo，从 google 在 Nature 上发的论文名《Mastering the game of Go with DNN》基本可以推断。 ",
+        "collapsedCounts": 0,
+        "markInfos": [],
+        "question": {
+          "title": "如何看待在弈城围棋网和腾讯野狐围棋上出现的两大神秘 AI 高手 Master（P）和 刑天（P）？",
+          "url": "",
+          "created": 1483235995,
+          "updatedTime": 1483711760,
+          "questionType": "normal",
+          "type": "question",
+          "id": 54258291
+        },
+        "relationship": {
+          "upvotedFollowees": [],
+          "isAuthor": false,
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false
+        },
+        "updatedTime": 1483546058,
+        "content": "master已经承认了，他是alphaGo<br>..........................................................<br><br>感觉这个“master”应该是AlphaGo，从 google 在 Nature 上发的论文名《Mastering the game of Go with DNN》基本可以推断。<br><br><br><noscript><img data-rawwidth=\"1164\" data-rawheight=\"960\" src=\"https://pic3.zhimg.com/v2-84b3e7c1593e115b3fc30bd59e09e37a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1164\" data-original=\"https://pic3.zhimg.com/v2-84b3e7c1593e115b3fc30bd59e09e37a_r.jpg\"></noscript><img data-rawwidth=\"1164\" data-rawheight=\"960\" src=\"//zhstatic.zhihu.com/assets/zhihu/ztext/whitedot.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1164\" data-original=\"https://pic3.zhimg.com/v2-84b3e7c1593e115b3fc30bd59e09e37a_r.jpg\" data-actualsrc=\"https://pic3.zhimg.com/v2-84b3e7c1593e115b3fc30bd59e09e37a_b.jpg\">",
+        "reviewingCommentsCount": 0,
+        "commentCount": 28,
+        "voteupCount": 93,
+        "reshipmentSettings": "allowed",
+        "commentPermission": "all",
+        "createdTime": 1483337648,
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "id": 138761725,
+        "isNormal": true
+      },
+      "139704687": {
+        "suggestEdit": {
+          "status": false,
+          "title": "",
+          "url": "",
+          "tip": "",
+          "reason": "",
+          "unnormalDetails": null
+        },
+        "isCollapsed": false,
+        "author": {
+          "avatarUrlTemplate": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_{size}.jpg",
+          "badge": [],
+          "name": "马超",
+          "isAdvertiser": false,
+          "url": "",
+          "type": "people",
+          "userType": "people",
+          "headline": "PhD student in Computer Science",
+          "avatarUrl": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_is.jpg",
+          "isOrg": false,
+          "urlToken": "ma-chao-61",
+          "id": "52162a2947f98389898310d50cfb4f22"
+        },
+        "url": "",
+        "excerpt": "卧槽，竟然有人邀请我。只想说两个字：谢邀！",
+        "collapsedCounts": 0,
+        "markInfos": [],
+        "question": {
+          "title": "当一个颜值较高的博士生是一种怎样的体验？",
+          "url": "",
+          "created": 1448455651,
+          "updatedTime": 1483426694,
+          "questionType": "normal",
+          "type": "question",
+          "id": 37881949
+        },
+        "relationship": {
+          "upvotedFollowees": [],
+          "isAuthor": false,
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false
+        },
+        "updatedTime": 1483793337,
+        "content": "<p>卧槽，竟然有人邀请我。只想说两个字：谢邀！</p>",
+        "reviewingCommentsCount": 0,
+        "commentCount": 2,
+        "voteupCount": 2,
+        "reshipmentSettings": "allowed",
+        "commentPermission": "all",
+        "createdTime": 1483793337,
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "id": 139704687,
+        "isNormal": true
+      },
+      "139948726": {
+        "suggestEdit": {
+          "status": false,
+          "title": "",
+          "url": "",
+          "tip": "",
+          "reason": "",
+          "unnormalDetails": null
+        },
+        "isCollapsed": false,
+        "author": {
+          "avatarUrlTemplate": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_{size}.jpg",
+          "badge": [],
+          "name": "马超",
+          "isAdvertiser": false,
+          "url": "",
+          "type": "people",
+          "userType": "people",
+          "headline": "PhD student in Computer Science",
+          "avatarUrl": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_is.jpg",
+          "isOrg": false,
+          "urlToken": "ma-chao-61",
+          "id": "52162a2947f98389898310d50cfb4f22"
+        },
+        "url": "",
+        "excerpt": "其实仔细想想，从广义上讲，机器学习干的不就是在帮助人类写代码的事吗？例如我们的程序里大量的 if else, 而决策树干的不就是这件事吗？只不过这些 if else 都是用数据学出来的，我们自己不用写了。除此之外，以前的很多图像识别算法都是程序猿通过手写规则完成的，而现在用deep learning训练一下就好了。这难难道不是帮程序猿写代码吗？ 我知道，大家总想搞个大新闻，说人工智能已经会写真的代码了。这里其实思路是要转变的。 …",
+        "collapsedCounts": 0,
+        "markInfos": [],
+        "question": {
+          "title": "现在的人工智能水平，能代替程序员写代码吗？如果有一天能写代码，是否会促使它发展自己的思维？",
+          "url": "",
+          "created": 1483761921,
+          "updatedTime": 1483931219,
+          "questionType": "normal",
+          "type": "question",
+          "id": 54500288
+        },
+        "relationship": {
+          "upvotedFollowees": [],
+          "isAuthor": false,
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false
+        },
+        "updatedTime": 1483927825,
+        "content": "其实仔细想想，从广义上讲，机器学习干的不就是在帮助人类写代码的事吗？例如我们的程序里大量的 if else, 而决策树干的不就是这件事吗？只不过这些 if else 都是用数据学出来的，我们自己不用写了。除此之外，以前的很多图像识别算法都是程序猿通过手写规则完成的，而现在用deep learning训练一下就好了。这难难道不是帮程序猿写代码吗？<br><br>我知道，大家总想搞个大新闻，说人工智能已经会写真的代码了。这里其实思路是要转变的。<br><br>关于真的去写代码，目前最前沿的研究依然做的很初步。感兴趣的话可以去看看 deepmind 关于 NPI 的工作。",
+        "reviewingCommentsCount": 0,
+        "commentCount": 2,
+        "voteupCount": 29,
+        "reshipmentSettings": "allowed",
+        "commentPermission": "all",
+        "createdTime": 1483927825,
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "id": 139948726,
+        "isNormal": true
+      },
+      "143610869": {
+        "suggestEdit": {
+          "status": false,
+          "title": "",
+          "url": "",
+          "tip": "",
+          "reason": "",
+          "unnormalDetails": null
+        },
+        "isCollapsed": false,
+        "author": {
+          "avatarUrlTemplate": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_{size}.jpg",
+          "badge": [],
+          "name": "马超",
+          "isAdvertiser": false,
+          "url": "",
+          "type": "people",
+          "userType": "people",
+          "headline": "PhD student in Computer Science",
+          "avatarUrl": "https://pic3.zhimg.com/337aedbc46bc0286afc21a01ff1a0f4e_is.jpg",
+          "isOrg": false,
+          "urlToken": "ma-chao-61",
+          "id": "52162a2947f98389898310d50cfb4f22"
+        },
+        "url": "",
+        "excerpt": "我在博士期间一直使用 MPI 进行大规模机器学习任务。楼上各位大神已经评论得非常详细了，我在这里再补充一些。 其实 mpi 只是一个网络传输接口，和 tensorflow, mxnet, spark 都不是一个层面的技术。换句话说，mpi 的对比对象应该是 zmq 或者底层 socket 这样的网络接口。我们可以使用类似于 mpi 或者 zmq 这样的接口去实现这些系统。 特定于机器学习任务，mpi 最大的优势有两点。一是 mpi 有一个高性能 allreduce 的实现，底层…",
+        "collapsedCounts": 0,
+        "markInfos": [],
+        "question": {
+          "title": "MPI 在大规模机器学习领域的前景如何？",
+          "url": "",
+          "created": 1485339005,
+          "updatedTime": 1485855775,
+          "questionType": "normal",
+          "type": "question",
+          "id": 55119470
+        },
+        "relationship": {
+          "upvotedFollowees": [],
+          "isAuthor": false,
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false
+        },
+        "updatedTime": 1485830984,
+        "content": "我在博士期间一直使用 MPI 进行大规模机器学习任务。楼上各位大神已经评论得非常详细了，我在这里再补充一些。<br><br>其实 mpi 只是一个网络传输接口，和 tensorflow, mxnet, spark 都不是一个层面的技术。换句话说，mpi 的对比对象应该是 zmq 或者底层 socket 这样的网络接口。我们可以使用类似于 mpi 或者 zmq 这样的接口去实现这些系统。<br><br>特定于机器学习任务，mpi 最大的优势有两点。一是 mpi 有一个高性能 allreduce 的实现，底层实现了 tree aggregation. 二是程序可以无缝移植到异构高性能计算环境，例如 infiniband. <br><br>mpi 的速度也是非常快的，比zmq快。我自己手写的消息传输也怎么优化也达不到 mpi 的速度。毕竟Argonne实验室的科学家每天都在研究怎么让 mpich 更快。并且对于很多机器学习任务，例如深度学习，网络传输已经不是瓶颈，这会随着万兆网的普及越来越明显。有人说 mpi 的异步传输比较坑，其实很多人用 mpi 都是直接用 send + recv ，配合一个自己写的 signal queue 就行了。<br><br>mpi 的缺点也很明显，对于机器学习任务来说，主要是支持的语言接口太少，只能拿 C/C++ 或者 fortran 来写，最近也有一个 java mpi 的实现，不知道性能如何。<br><br>其实 mpi 不支持容错问题并不大，因为容错的逻辑本身也应该是开发者自己来搞定，除非你能忍受 hadoop 这样的龟速。不过这里有一个小 trick, 使用 MPICH 需要把 auto-cleanup 关掉。因为 mpi manager 默认是只要一个 task 挂掉，就会杀掉所有进程。",
+        "reviewingCommentsCount": 0,
+        "commentCount": 8,
+        "voteupCount": 27,
+        "reshipmentSettings": "allowed",
+        "commentPermission": "all",
+        "createdTime": 1485830558,
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "id": 143610869,
+        "isNormal": true
+      }
+    },
+    "articles": {},
+    "columns": {},
+    "topics": {},
+    "roundtables": {},
+    "favlists": {},
+    "comments": {},
+    "notifications": {},
+    "publications": {}
+  },
+  "people": {
+    "isFetching": false,
+    "activitiesByUser": {},
+    "answersByUser": {
+      "ma-chao-61": {
+        "isDrained": false,
+        "isFetching": false,
+        "ids": [
+          143610869,
+          139948726,
+          139704687,
+          138761725,
+          127637712,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "totals": 55
+      }
+    },
+    "answersSortByVotesByUser": {},
+    "answersMarkedByUser": {},
+    "votedAnswersByUser": {},
+    "thankedAnswersByUser": {},
+    "voteAnswersByUser": {},
+    "thankAnswersByUser": {},
+    "topicAnswersByUser": {},
+    "articlesByUser": {},
+    "articlesSortByVotesByUser": {},
+    "pinsByUser": {},
+    "questionsByUser": {},
+    "commercialQuestionsByUser": {},
+    "favlistsByUser": {},
+    "followingByUser": {},
+    "followersByUser": {},
+    "mutualsByUser": {},
+    "followingColumnsByUser": {},
+    "followingQuestionsByUser": {},
+    "followingFavlistsByUser": {},
+    "followingTopicsByUser": {},
+    "publicationsByUser": {},
+    "columnsByUser": {},
+    "allFavlistsByUser": {}
+  },
+  "question": {
+    "followers": {},
+    "answers": {},
+    "createdAnswers": {},
+    "collapsedAnswers": {},
+    "notificationAnswers": {},
+    "invitationCandidates": {},
+    "inviters": {},
+    "invitees": {},
+    "similarQuestions": {},
+    "relatedLives": {},
+    "bio": {},
+    "brand": {}
+  },
+  "comments": {
+    "pagination": {},
+    "reverse": {},
+    "reviewing": {},
+    "conversation": {}
+  },
+  "currentUser": "",
+  "shareTexts": {},
+  "pushNotifications": {
+    "default": {
+      "isFetching": false,
+      "isDrained": false,
+      "ids": []
+    },
+    "follow": {
+      "isFetching": false,
+      "isDrained": false,
+      "ids": []
+    },
+    "vote-thank": {
+      "isFetching": false,
+      "isDrained": false,
+      "ids": []
+    },
+    "currentTab": "default",
+    "notificationsCount": {
+      "default": 0,
+      "follow": 0,
+      "vote-thank": 0
+    }
+  },
+  "messages": {
+    "data": {},
+    "currentTab": "common",
+    "messageCount": 0
+  },
+  "notification": {},
+  "token": {},
+  "upload": {},
+  "answers": {
+    "voters": {},
+    "copyrightApplicants": {},
+    "favlists": {}
+  },
+  "banner": {},
+  "captcha": {
+    "captchaNeeded": false,
+    "captchaBase64String": null,
+    "captchaValidationMessage": null,
+    "loginCaptchaExpires": false
+  },
+  "topics": {
+    "bios": {}
+  },
+  "sms": {
+    "supportedCountries": []
+  },
+  "register": {
+    "registerValidateSucceeded": null,
+    "registerValidateErrors": {},
+    "registerConfirmError": null,
+    "sendDigitsError": null,
+    "registerConfirmSucceeded": null
+  },
+  "login": {
+    "loginConfirmError": null,
+    "sendDigitsError": null,
+    "loginConfirmSucceeded": null
+  },
+  "active": {
+    "sendDigitsError": null,
+    "activeConfirmSucceeded": null,
+    "activeConfirmError": null
+  },
+  "passwordReset": {
+    "loginConfirmError": null,
+    "sendDigitsError": null,
+    "loginConfirmSucceeded": null,
+    "resetPasswordSucceeded": null,
+    "resetPasswordError": null
+  },
+  "explore": {
+    "recommendations": {}
+  },
+  "articles": {
+    "voters": {}
+  },
+  "favlists": {
+    "relations": {}
+  }
+}
