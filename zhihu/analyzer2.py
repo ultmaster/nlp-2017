@@ -87,7 +87,7 @@ def sentiment_analyzer(text):
     global sentiment_data
     for word in jieba.cut(text):
         score += sentiment_data.get(word, 0) ** 2
-    return score
+    return score / len(text) * 100
 
 
 def length_analyzer(text):
@@ -196,7 +196,7 @@ def user_article_vote_analysis():
     articles = session.query(Article).all()
     counter = Counter()
     vote_all = Counter()
-    x, y, s = [], [], []
+    x, y, w = [], [], []
     for article in articles:
         mx = article.user_vote - article.user_vote % 100
         vote_all[mx] += article.vote
@@ -204,22 +204,63 @@ def user_article_vote_analysis():
     for key in sorted(counter):
         x.append(key)
         y.append(vote_all[key] / counter[key])
+        w.append(counter[key])
         print(key, vote_all[key], counter[key])
-    x = x[:int(0.9 * len(x))]
-    y = y[:int(0.9 * len(y))]
-    yvals = np.polyval(np.polyfit(x, y, 3), x)
+    x = x[:int(0.3 * len(x))]
+    y = y[:int(0.3 * len(y))]
+    w = w[:int(0.3 * len(w))]
+    s = [0.3 * (math.log(tmp)) for tmp in w]
+    yvals = np.polyval(np.polyfit(x, y, 4, w=w), x)
     pylab.clf()
     pylab.xlim([0, get_average_of_top(x, 0.08)])
     pylab.ylim([0, get_average_of_top(y, 0.3)])
     pylab.xlabel('Votes for users')
     pylab.ylabel('Votes for articles')
-    pylab.scatter(x, y, s=0.6, alpha=0.6)
+    pylab.scatter(x, y, s=s, alpha=0.6)
     pylab.plot(x, yvals, 'r')
-    pylab.savefig('user_article_vote_counting_4.eps')
+    pylab.savefig('user_article_vote_counting_6.eps')
     session.close()
 
 
-def sensational_analyze():
+def sentiment_analyze():
+    session = session_loader()
+    articles = session.query(Article).filter(Article.article != "").all()
+    random.shuffle(articles)
+    sample_articles = random.sample(articles, 100)
+    sample_articles = [(sentiment_analyzer(article.article), article.article.split('\n'))
+                       for article in sample_articles]
+    sample_articles.sort(key=lambda x: x[0])
+    for article in sample_articles:
+        print(article)
+    counter = Counter()
+    total_vote = Counter()
+    for article in articles:
+        if len(article.article) > 0:
+            key = sentiment_analyzer(article.article)
+            if key > 800:
+                print(article.article.split('\n'))
+            counter[int(key)] += 1
+            total_vote[int(key)] += article.vote
+    x, y, w = [], [], []
+    for key in sorted(counter):
+        x.append(key)
+        y.append(total_vote[key] / counter[key])
+        w.append(counter[key])
+        print(key, total_vote[key] / counter[key], counter[key])
+    s = [0.5 * (math.log(tmp) + 1) for tmp in w]
+    pylab.clf()
+    pylab.xlim(0, 400)
+    pylab.ylim(0, 300)
+    # pylab.xlim([0, get_average_of_top(x, 0.05)])
+    # pylab.ylim(0, get_average_of_top(y, 0.02))
+    pylab.xlabel('Sentimental Value')
+    pylab.ylabel('Average Vote')
+    pylab.scatter(x, y, s=s)
+    pylab.savefig('sentimental_vote_6.eps')
+    session.close()
+
+
+def length_analysis():
     session = session_loader()
     articles = session.query(Article).all()
     random.shuffle(articles)
@@ -227,26 +268,31 @@ def sensational_analyze():
     counter = Counter()
     total_vote = Counter()
     for article in articles:
-        key = sentiment_analyzer(article.article)
-        counter[int(key / 100)] += 1
-        total_vote[int(key / 100)] += article.vote
-    x, y = [], []
+        key = int(len(article.article) / 100)
+        counter[key] += 1
+        total_vote[key] += article.vote
+    x, y, w = [], [], []
     for key in sorted(counter):
         x.append(key * 100)
         y.append(total_vote[key] / counter[key])
-        print(key * 100, total_vote[key] / counter[key])
-    y1 = np.polyfit(x, y, 3)
+        w.append(counter[key])
+        print(key * 100, total_vote[key] / counter[key], counter[key])
+    x = x[:int(0.9 * len(x))]
+    y = y[:int(0.9 * len(y))]
+    w = w[:int(0.9 * len(w))]
+    s = [0.5 * (math.log(tmp) * 3 + 1) for tmp in w]
+    y1 = np.polyfit(x, y, 4, w=w)
     yvals = np.polyval(y1, x)
     pylab.clf()
     pylab.xlim([0, get_average_of_top(x, 0.05)])
     pylab.ylim(0, 4000)
-    pylab.xlabel('Sentimental Value')
+    pylab.xlabel('Length of article')
     pylab.ylabel('Average Vote')
-    pylab.scatter(x, y, s=1)
+    pylab.scatter(x, y, s=s)
     pylab.plot(x, yvals, 'r')
-    pylab.savefig('sentimental_vote_3.eps')
+    pylab.savefig('length_analysis_2.eps')
     session.close()
 
 
 if __name__ == '__main__':
-    user_article_vote_analysis()
+    sentiment_analyze()
